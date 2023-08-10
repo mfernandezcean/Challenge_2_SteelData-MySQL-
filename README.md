@@ -1,6 +1,9 @@
 # Challenge_2_SteelData-MySQL-
 Challenge 2 - Esports Tournament
 
+
+[Link to Steel Data Challenge](https://steeldata.org.uk/sql2.html)
+
 **QUESTIONS:**
 
 1. What are the names of the players whose salary is greater than 100,000?
