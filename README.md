@@ -18,6 +18,9 @@ Challenge 2 - Esports Tournament
 10. What is the date and the score of the match with match_id = 3?
 ---
 
+
+![werwerwerwerwer](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/36cf4176-ccd8-4ed1-bbca-0288133bb3e0)
+
 **ANSWERS:**
 
 1. What are the names of the players whose salary is greater than 100,000?
