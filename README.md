@@ -1,9 +1,10 @@
 # Challenge_2_SteelData-MySQL-
-Challenge 2 - Esports Tournament
+## E-sports Tournament
+[Link to Steel Data Challenge](https://steeldata.org.uk/sql2.html)
 
 ![qwaddwdwdwqa](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/b0ab65aa-8127-4eba-bcc6-0876104543c7)
 
-[Link to Steel Data Challenge](https://steeldata.org.uk/sql2.html)
+
 
 ### **QUESTIONS:**
 
@@ -19,7 +20,7 @@ Challenge 2 - Esports Tournament
 10. What is the date and the score of the match with match_id = 3?
 ---
 
-
+### TABLES:
 ![werwerwerwerwer](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/36cf4176-ccd8-4ed1-bbca-0288133bb3e0)
 --
 
