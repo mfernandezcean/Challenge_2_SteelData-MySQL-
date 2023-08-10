@@ -52,6 +52,7 @@ SELECT
 FROM teams t
 LEFT JOIN players p
 ON t.team_id = p.team_id
+
 WHERE p.player_id = 3;
 ```
 
@@ -80,6 +81,7 @@ SELECT
 FROM teams t
 LEFT JOIN players p
 ON t.team_id = p.team_id
+
 WHERE p.team_id = 2 AND p.player_id = 2;
 ```
 
@@ -109,6 +111,7 @@ SELECT
 FROM teams t
 LEFT JOIN matches m
 ON t.team_id = m.winner_id
+
 GROUP BY 1
 ORDER BY Matches_won DESC; 
 ```
@@ -125,6 +128,7 @@ SELECT
 FROM teams t
 LEFT JOIN players p
 ON t.team_id = p.team_id
+
 WHERE t.country = 'USA'
 GROUP BY 1;
 ```
@@ -141,6 +145,7 @@ SELECT
 FROM teams t
 LEFT JOIN matches m
 ON t.team_id = m.winner_id
+
 GROUP BY 1
 ORDER BY Matches_won DESC
 LIMIT 1;
@@ -157,6 +162,7 @@ SELECT
 FROM players p
 LEFT JOIN teams t
 ON p.team_id = t.team_id
+
 WHERE salary > 100000
 GROUP BY 1
 ORDER BY 2 DESC;
