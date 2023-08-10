@@ -33,3 +33,17 @@ ORDER BY 2 DESC;
 --
 
 2. What is the team name of the player with player_id = 3?
+
+```
+SELECT
+  p.player_id,
+  p.team_id,
+  t.team_name
+
+FROM teams t
+LEFT JOIN players p
+ON t.team_id = p.team_id
+WHERE p.player_id = 3;
+```
+
+![wqdwdqwqdwqdqwd](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/0a61a1eb-19ef-454d-99d3-029b45c349a6)
