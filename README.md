@@ -1,6 +1,7 @@
 # Challenge_2_SteelData-MySQL-
 Challenge 2 - Esports Tournament
 
+![qwaddwdwdwqa](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/b0ab65aa-8127-4eba-bcc6-0876104543c7)
 
 [Link to Steel Data Challenge](https://steeldata.org.uk/sql2.html)
 
