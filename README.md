@@ -90,8 +90,25 @@ SELECT
   player_name,
   role,
   team_id
+
 FROM players 
 WHERE team_id = 1
 ```
 
 ![f32f32f32f](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/60723de5-d48c-44a0-b721-9d1bc262223b)
+--
+
+6.What are the team names and the number of matches they have won?
+```
+SELECT 
+  t.team_name,
+  COUNT(m.match_id) AS Matches_won
+
+FROM teams t
+LEFT JOIN matches m
+ON t.team_id = m.winner_id
+GROUP BY 1
+ORDER BY Matches_won DESC; 
+```
+
+![wqe12](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/b7a35b9a-910e-48df-8a3d-6138ecd36335)
