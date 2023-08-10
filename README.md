@@ -112,3 +112,67 @@ ORDER BY Matches_won DESC;
 ```
 
 ![wqe12](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/b7a35b9a-910e-48df-8a3d-6138ecd36335)
+--
+
+7. What is the average salary of players in the teams with country 'USA'?
+```
+SELECT 
+  t.team_name,
+  ROUND (AVG(p.salary), 0) AS Average_Salary
+
+FROM teams t
+LEFT JOIN players p
+ON t.team_id = p.team_id
+WHERE t.country = 'USA'
+GROUP BY 1;
+```
+
+![f3223f3223f](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/b6bb9653-005a-4379-8316-d6fb76a4f5fb)
+--
+
+8. Which team won the most matches?
+```
+SELECT 
+  t.team_name,
+  COUNT(m.match_id) AS Matches_won
+
+FROM teams t
+LEFT JOIN matches m
+ON t.team_id = m.winner_id
+GROUP BY 1
+ORDER BY Matches_won DESC
+LIMIT 1;
+```
+![qwfqwfqwqw](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/d66d2cac-0e72-4276-a0e8-ae880d2b44fc)
+--
+
+9. What are the team names and the number of players in each team whose salary is greater than 100,000?
+```
+SELECT
+  t.team_name, 
+  COUNT(p.player_name) AS 'Players_w_Salary>100k'
+
+FROM players p
+LEFT JOIN teams t
+ON p.team_id = t.team_id
+WHERE salary > 100000
+GROUP BY 1
+ORDER BY 2 DESC;
+```
+
+![wdqwdqdwqwqdwq](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/473f5147-26a9-438b-9f38-3c1fac1f439d)
+--
+
+10. What is the date and the score of the match with match_id = 3?
+```
+SELECT 
+  match_id,
+  match_date,
+  score_team1,
+  score_team2
+
+FROM matches
+WHERE match_id = 3;
+```
+
+![wqddwqwqdwdqqwd](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/dedc73b8-5d5c-4eb4-ad50-029e90752732)
