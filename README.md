@@ -5,7 +5,7 @@ Challenge 2 - Esports Tournament
 
 [Link to Steel Data Challenge](https://steeldata.org.uk/sql2.html)
 
-**QUESTIONS:**
+### **QUESTIONS:**
 
 1. What are the names of the players whose salary is greater than 100,000?
 2. What is the team name of the player with player_id = 3?
@@ -21,8 +21,9 @@ Challenge 2 - Esports Tournament
 
 
 ![werwerwerwerwer](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/36cf4176-ccd8-4ed1-bbca-0288133bb3e0)
+--
 
-**ANSWERS:**
+### **ANSWERS:**
 
 1. What are the names of the players whose salary is greater than 100,000?
 
