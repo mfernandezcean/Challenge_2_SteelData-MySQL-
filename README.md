@@ -75,6 +75,16 @@ WHERE p.team_id = 2 AND p.player_id = 2;
 ```
 
 ![wdqwqdqwd](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/a5328826-5da0-42f9-b4e2-184b0ce053d5)
+--
 
+5. What are the player names and their roles in the team with team_id = 1?
+```
+SELECT 
+  player_name,
+  role,
+  team_id
+FROM players 
+WHERE team_id = 1
+```
 
-
+![f32f32f32f](https://github.com/mfernandezcean/Challenge_2_SteelData-MySQL-/assets/105746149/60723de5-d48c-44a0-b721-9d1bc262223b)
